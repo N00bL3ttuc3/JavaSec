@@ -1,4 +1,4 @@
-package Serialization.Log4j2;
+package Log4j2;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

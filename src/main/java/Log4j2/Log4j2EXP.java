@@ -1,4 +1,4 @@
-package Serialization.Log4j2;
+package Log4j2;
 
 /**
  * @author L3ttuc3

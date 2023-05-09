@@ -1,4 +1,4 @@
-package Serialization.Fastjson;
+package Fastjson;
 
 import java.io.IOException;
 

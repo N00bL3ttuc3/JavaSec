@@ -1,5 +1,8 @@
 package RMI.Server;
 
+import RMI.RemoteImpl;
+import RMI.RemoteInterface;
+
 import java.net.MalformedURLException;
 import java.rmi.AlreadyBoundException;
 import java.rmi.Naming;
@@ -13,7 +16,7 @@ import java.rmi.registry.LocateRegistry;
  */
 public class Server {
     public static void main(String[] args) throws RemoteException, MalformedURLException, AlreadyBoundException {
-        RemoteInterface remoteObj = new RemoteImpl();
+        RemoteImpl remoteObj = new RemoteImpl();
         LocateRegistry.createRegistry(1099);
         Naming.bind("rmi://localhost:1099/RMIObj",remoteObj);
     }
