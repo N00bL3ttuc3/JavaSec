@@ -7,6 +7,7 @@ import java.io.IOException;
  * @version 1.0
  * @date 2023/5/11 15:49
  */
+//如果想执行必须删除package！！！
 public class Test {
     public Test() {
         try {
