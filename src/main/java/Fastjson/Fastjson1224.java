@@ -17,6 +17,9 @@ import java.util.Base64;
  */
 public class Fastjson1224 {
     public static void main(String[] args) throws NoSuchMethodException, IOException, InvocationTargetException, IllegalAccessException, InstantiationException, TransformerConfigurationException, NoSuchFieldException {
+        //以下均针对Fastjson <= 1.2.24
+
+
         //Fastjson可以将String解析为类，这里解析为Person类，但是这也是安全的，因为我们指定了转化为什么类
 //        String s = "{\"name\":\"L3ttuc3\",\"age\":\"23\"}";
 //        Person person = JSON.parseObject(s, Person.class);
