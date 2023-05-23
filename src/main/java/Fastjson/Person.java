@@ -28,11 +28,11 @@ public class Person {
 
     public void setName(String name) {
         System.out.println("setName Run");
-        try {
-            Runtime.getRuntime().exec("open -a Calculator.app");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            Runtime.getRuntime().exec("open -a Calculator.app");
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
         this.name = name;
     }
 

