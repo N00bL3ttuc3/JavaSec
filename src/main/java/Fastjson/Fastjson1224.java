@@ -33,7 +33,7 @@ public class Fastjson1224 {
 //        JSONObject jsonObject = JSON.parseObject(s1);
 //        System.out.println(jsonObject);
 
-//        JSON.parseObject("{\"@type\":\"org.example.App$User\",\"id\":\"123\"}", Feature.SupportNonPublicField);
+        JSON.parseObject("{\"@type\":\"org.example.App$User\",\"id\":\"123\"}", Feature.SupportNonPublicField);
 
 
 
