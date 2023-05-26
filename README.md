@@ -1,6 +1,7 @@
 # L3ttuc3的Java安全学习记录
 Java安全学习记录
 
+## 当前计划，实时更新
 - 反序反序列化链子
     - CommonsCollections1
     - CommonsCollections3
